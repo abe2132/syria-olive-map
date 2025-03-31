@@ -1,0 +1,71 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [36.2765, 33.5138] // Damascus Area Example
+      },
+      "properties": {
+        "name": "Damascus Grove 1",
+        "variety": "Sorani",
+        "estimated_age": 80,
+        "notes": "Located near Ghouta oasis."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [37.1595, 36.2021] // Aleppo Area Example
+      },
+      "properties": {
+        "name": "Aleppo Cluster West",
+        "variety": "Zaity",
+        "estimated_age": 120,
+        "notes": "Historical cluster, well-maintained."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.7907, 35.5239] // Latakia Coastal Example
+      },
+      "properties": {
+        "name": "Coastal Tree Alpha",
+        "variety": "Kaisi",
+        "estimated_age": 50,
+        "notes": "Benefits from coastal humidity."
+      }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [36.7544, 35.1378] // Hama Area Example
+        },
+        "properties": {
+          "name": "Orontes River Tree",
+          "variety": "Dan",
+          "estimated_age": 200,
+          "notes": "Ancient tree near the river."
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [36.6667, 35.9333] // Idlib Area Example
+        },
+        "properties": {
+          "name": "Idlib Grove South",
+          "variety": "Sorani",
+          "estimated_age": 65,
+          "notes": "Part of a larger agricultural area."
+        }
+      }
+    // Add more points as needed
+  ]
+}
